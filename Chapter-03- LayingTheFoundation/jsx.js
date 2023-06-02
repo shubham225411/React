@@ -8,7 +8,16 @@ import  ReactDOM  from "react-dom/client"
 // the below is read by babel library, which gives us browser-compatible code
 // the below code is not understood by browsers directly
 const heading = (
+    <div>
     <h1 id="title">This is from JSX</h1>
+    <h1>Hello</h1>
+    <h2>Another One
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+        </ul>
+    </h2>
+    </div>
 )
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

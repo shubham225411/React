@@ -9,8 +9,17 @@ import ReactDOM from "react-dom/client";
 // * Functional Component is a javaScript function that rerturns some piece of JSX.
 
 // TODO Its react element just like any javascript normal variable
-const header = <h1>Hi ! I am React element</h1>;
+const header = (
+  <div>
+    <p>
+    <h1>Hi ! I am React element</h1>
+    <h2>Two</h2>
+    <p>This is a paragraph</p>
+  </p>
+  </div>
+);
 
+// it is a functional component
 const Header = () => {
   return <h1>hello! From Function Component</h1>;
 };
