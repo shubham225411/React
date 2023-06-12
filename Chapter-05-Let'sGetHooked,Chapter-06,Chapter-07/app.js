@@ -16,6 +16,7 @@ import {
   Outlet
 } from "react-router-dom";
 import RestaurantMenu from "./components/RestaurantDetails";
+import Profile from "./components/Profile";
 
 // Below peice of code is an React Element , which uses JSX inside it.
 const title = (
@@ -93,7 +94,13 @@ const appRouter = createBrowserRouter([
     children:[
       {
         path: "/about",
-        element: <About />
+        element: <About />,
+        children: [
+          {
+            path: "profile",
+            element: <Profile />
+          },
+        ],
       },
       {
         path: "/",
