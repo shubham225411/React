@@ -23,7 +23,6 @@ const RestaurantMenu = () => {
     const json = await data.json();
     setRestauraunt(json.data);
     console.log("printing json.data", json.data?.cards[0]?.card?.card?.info?.name);
-    console.log("printing restairant", restaurant)
     
   }
 
