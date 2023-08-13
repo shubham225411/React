@@ -4,45 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>chapter-01/complexHtmlUsingReact.html</title>
-    <script
-      crossorigin
-      src="https://unpkg.com/react@18/umd/react.development.js"
-    ></script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script>
+    <!-- the file app.js contains import statement , so we have to make the type to module so that imports work. -->
+    <script type="module" src="app.js"></script>
   </head>
   <body>
     <div id="root">Not Rendered</div>
-    <!-- we want to create the below structure using React
-    A heading element ( h1 , h2 , h3 , etc.) can't be nested inside another heading element.
-    it's not a valid HTML structure according to the HTML specification. 
-    <div>
-        <h1>
-            <h2></h2>
-        </h1>
-        <p></p>
-    </div>
-
-    So changing the above the structure to the below one
-    <div>
-        <h1>
-            <p></p>
-        </h1>
-        <h2></h2>
-        
-    </div> -->
-
-    <script>
-      const h2 = React.createElement("h2", { id: "h2" }, "This is h2 Header");
-      const para = React.createElement("p", { id: "para" }, "this is Para");
-      const h1 = React.createElement("h1", { id: "h1" }, [para]);
-
-      const div = React.createElement("div", { id: "container" }, [h1, h2]);
-
-      const root = ReactDOM.createRoot(document.getElementById("root"));
-      root.render(div);
-    </script>
   </body>
 </html>
