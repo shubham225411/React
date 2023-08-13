@@ -11,7 +11,7 @@
 - package.json
 - package-lock.json
 
-* Commands Executed
+# Commands Executed
 - npm init
 - npm i -D parcel
 - npm i react react-dom
