@@ -11,6 +11,6 @@
 - package.json
 - package-lock.json
 
-* Commands Executed
+# Commands Executed
 - npm init
 - np i -D parcel
