@@ -11,6 +11,9 @@
 - package.json
 - package-lock.json
 
-# Commands Executed
+* Commands Executed
 - npm init
-- np i -D parcel
+- npm i -D parcel
+- npm i react react-dom
+- npx parcel complexHtmlUsingReact.html
+
