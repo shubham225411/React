@@ -1,0 +1,22 @@
+{
+  "name": "chapter-02-igniting_the_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "complexHtmlUsingReact.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham225411/React.git"
+  },
+  "author": "Shubham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubham225411/React/issues"
+  },
+  "homepage": "https://github.com/shubham225411/React#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
